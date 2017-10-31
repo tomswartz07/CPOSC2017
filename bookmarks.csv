@@ -1,0 +1,438 @@
+# Tag name          ;  color
+Voice               ; #00aa7f
+Public Works        ; #c0629f
+Utilities           ; #4d5fc0
+Data                ; #00ffff
+Transportation      ; #5bc03f
+Aircraft            ; #aaffff
+Ham                 ; #00aa7f
+Radio Direction Finding; #aaaa00
+TRS                 ; #ff510c
+Satellite           ; #905353
+Schuylkill County   ; #eae788
+
+# Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
+     1490000; WONN-FM                  ; AM                  ;      10000; Voice
+     1816710; Morse Code               ; CW-L                ;        500; Data
+     4625000; UVB-76                   ; USB                 ;       2700; Ham
+     7048900; W1AW - ARRL              ; LSB                 ;       2700; Ham
+     7173000; LSB 40 Meters            ; LSB                 ;       2700; Ham
+    12160000; Crazy Conspiracy Nut     ; AM                  ;      10000; Voice
+    31000000; Little Britain Ag Supply ; Narrow FM           ;      10000; Voice
+    31160000; John Weidman & Son Oil Burner Service; Narrow FM           ;      10000; Voice
+    33080000; Manheim Township Ambulance Assoc; Narrow FM           ;      10000; Voice
+    33420000; Hope Fire Engine & Hose Company; Narrow FM           ;      10000; Voice
+    33440000; Lancaster County Fire/EMS; Narrow FM           ;      10000; Voice
+    33480000; Lancaster County Fire/EMS; Narrow FM           ;      10000; Voice
+    33520000; Lancaster County Fire/EMS; Narrow FM           ;      10000; Voice
+    33560000; Fire/EMS Dispatch B (Northeast) TRS Rebroadcast; Narrow FM           ;      10000; Voice
+    33600000; House Siren Activations  ; Narrow FM           ;      10000; Voice
+    33620000; Hope Fire Engine & Hose Company; Narrow FM           ;      10000; Voice
+    33640000; Fire/EMS Dispatch A (Northwest) TRS Rebroadcast; Narrow FM           ;      10000; Voice
+    33720000; Fire/EMS Dispatch C (City/South) TRS Rebroadcast; Narrow FM           ;      10000; Voice
+    33800000; Lititz FC No. 1          ; Narrow FM           ;      10000; Voice
+    33820000; Lancaster City Voice     ; Narrow FM           ;      10000; Voice
+    33840000; Ephrata Pioneer FC       ; Narrow FM           ;      10000; Voice
+    33900000; County Fire/EMS Dispatch ; Narrow FM           ;      10000; Voice
+    33920000; East Lampeter Township Fire District; Narrow FM           ;      10000; Voice
+    33960000; Lititz FC No. 1          ; Narrow FM           ;      10000; Voice
+    33980000; Elizabethtown Fire District; Narrow FM           ;      10000; Voice
+    45040000; Mount Joy Township Forest Fire Channel; Narrow FM           ;      10000; Voice
+    45640000; Akron Municipal PD (Tac/Low); Narrow FM           ;      10000; Voice
+    45700000; West Earl Municipal PD (Low); Narrow FM           ;      10000; Voice
+    53850000; N3TJJ                    ; Narrow FM           ;       6600; Ham
+    53970000; W3HZU                    ; Narrow FM           ;       6600; Ham
+    72580000; County Fire/EMS Dispatch ; Narrow FM           ;      10000; Voice
+    88700000; WXPN                     ; WFM (mono)          ;     160000; Voice
+    89500000; WITF                     ; WFM (mono)          ;     160000; Voice
+    90300000; WJTL                     ; WFM (mono)          ;     160000; Voice
+    90700000; WRTL                     ; WFM (stereo)        ;     160000; Voice
+    91300000; WLCH                     ; WFM (mono)          ;     160000; Voice
+    91900000; WYTL                     ; WFM (mono)          ;     160000; Voice
+    92100000; WTPA                     ; WFM (mono)          ;     160000; Voice
+    94500000; WDAC                     ; WFM (mono)          ;     160000; Voice
+    96100000; WSOX                     ; WFM (mono)          ;     160000; Voice
+    96900000; WLAN                     ; WFM (mono)          ;     160000; Voice
+    97300000; WRVV                     ; WFM (mono)          ;     160000; Voice
+   101300000; 101 "The Rose"           ; WFM (mono)          ;     160000; Voice
+   117300000; KLNS LRP                 ; AM                  ;       5000; Radio Direction Finding,Aircraft
+   120900000; KLNS Tower               ; AM                  ;      10000; Aircraft,Voice
+   121800000; KLNS Ground Control      ; AM                  ;      10000; Aircraft,Voice
+   122950000; KLNS Unicom              ; AM                  ;      10000; Aircraft,Voice
+   123050000; Smoketown Ground Control ; AM                  ;      10000; Aircraft
+   125675000; KLNS Automated Weather   ; AM                  ;      10000; Aircraft,Voice
+   126450000; KLNS Approach/Departure (KMDT Harrisburg); AM                  ;      10000; Aircraft
+   130169000; ISS Comms                ; Narrow FM           ;      10000; Satellite,Voice
+   136770000; NOAA 9 (DEAD)            ; Narrow FM           ;      10000; Satellite
+   136975000; Orbcomm                  ; Narrow FM           ;      10000; Data,Satellite
+   137100000; NOAA 19                  ; Narrow FM           ;      25000; Data,Satellite
+   137620000; NOAA 15                  ; Narrow FM           ;      25000; Data,Satellite
+   137890000; Meteor M2                ; Narrow FM           ;      10000; Data,Satellite
+   137912500; NOAA 18                  ; Narrow FM           ;      25000; Data,Satellite
+   144390000; APRS                     ; Narrow FM           ;      10000; Data
+   145230000; K3IR Manheim             ; Narrow FM           ;      10000; Ham
+   145310000; N3FYI Lancaster          ; Narrow FM           ;      10000; Ham
+   145370000; SARA Club                ; Narrow FM           ;      10000; Schuylkill County
+   145390000; W3AD Cornwall            ; Narrow FM           ;      10000; Ham,Voice
+   145450000; W3XP Ephrata             ; Narrow FM           ;      10000; Ham,Voice
+   145980000; AO-85 (FOX-1A)           ; Narrow FM           ;      10000; Satellite
+   146490000; Tamaqua Repeater         ; Narrow FM           ;      10000; Schuylkill County
+   146610000; K3NCY New Holland        ; Narrow FM           ;      10000; Ham,Voice
+   146640000; Pine Grove AARG          ; Narrow FM           ;      10000; Schuylkill County
+   146700000; K3AE Shrewsberry         ; Narrow FM           ;      10000; Ham,Voice
+   146745000; KX3B Buck                ; Narrow FM           ;      10000; Ham,Voice
+   146865000; W3ZGD Red Lion           ; Narrow FM           ;      10000; Ham,Voice
+   146925000; W3WAN York               ; Narrow FM           ;      10000; Voice
+   146970000; W3HZU York               ; Narrow FM           ;      10000; Ham,Voice
+   147015000; W3RR LGH                 ; Narrow FM           ;      10000; Ham
+   147165000; K3LV Grantville          ; Narrow FM           ;      10000; Ham,Voice
+   147270000; Tamaqua W3TWA            ; Narrow FM           ;      10000; Schuylkill County
+   147315000; K3LV Cornwall            ; Narrow FM           ;      10000; Voice
+   147390000; Hegins KB3VXB            ; Narrow FM           ;      10000; Schuylkill County
+   150830000; Black Rock Retreat       ; Narrow FM           ;      10000; Voice
+   150995000; Mountville Borough PD    ; Narrow FM           ;      10000; Voice
+   151085000; West Lampeter PD         ; Narrow FM           ;      10000; Voice
+   151137500; Shendandoah Fire/Police  ; Narrow FM           ;      10000; Schuylkill County
+   151175000; Cressona DPW             ; Narrow FM           ;      10000; Schuylkill County
+   151205000; New Holland Boro PD      ; Narrow FM           ;      10000; Voice
+   151250000; Martindale Fire Company  ; Narrow FM           ;      10000; Voice
+   151325000; Schuylkill County EMS    ; Narrow FM           ;      10000; Schuylkill County
+   151415000; Pottsville PDW/PD        ; Narrow FM           ;      10000; Schuylkill County
+   151520000; DART Production Ops      ; Narrow FM           ;      10000; Voice
+   151580000; Shultz Lancaster District 1; Narrow FM           ;      10000; Transportation
+   151595000; Hotel Ch1 Maintenance    ; Narrow FM           ;      10000; Voice
+   151625000; West Penn Fire Police    ; Narrow FM           ;      10000; Schuylkill County
+   151715000; Dutch Wonderland - Maintenance; Narrow FM           ;      10000; Voice
+   151730000; Groff Bus Service        ; Narrow FM           ;      10000; Transportation
+   151745000; Dutch Wonderland - Security; Narrow FM           ;      10000; Voice
+   151790000; R R Donnelley & Sons     ; Narrow FM           ;      10000; Voice
+   151850000; R R Donnelley & Sons     ; Narrow FM           ;      10000; Voice
+   151895000; Graybill Bus Manheim     ; Narrow FM           ;      10000; Transportation
+   151925000; Dutch Wonderland - Retail; Narrow FM           ;      10000; Voice
+   151955000; Dutch Wonderland - Food Service; Narrow FM           ;      10000; Voice
+   151955000; Schuylkill County Prison ; Narrow FM           ;      10000; Schuylkill County
+   152180000; POCSAG                   ; Narrow FM           ;      20000; Data
+   152345000; DART Building 4          ; Narrow FM           ;      10000; Voice
+   152390000; Yellow Cab               ; Narrow FM           ;      10000; Transportation
+   152420000; Hotel Ch2 Housekeeping   ; Narrow FM           ;      10000; Voice
+   152450000; Columbia Borough School District; Narrow FM           ;      10000; Voice
+   152450000; DART Building 13/14      ; Narrow FM           ;      10000; Voice
+   152450000; Kunzler                  ; Narrow FM           ;      10000; Voice
+   152465000; DART Maintenance         ; Narrow FM           ;      10000; Voice
+   152900000; Rohrers Quarry           ; Narrow FM           ;      10000; Voice
+   152915000; Dutch Wonderland - Environmental Services; Narrow FM           ;      10000; Voice
+   152945000; Althouse Transportation (Octorara SD); Narrow FM           ;      10000; Transportation
+   153095000; DART Shipping/Yard jockeys; Narrow FM           ;      10000; Voice
+   153235000; DART 1st Responders      ; Narrow FM           ;      10000; Voice
+   153785000; New Holland Boro PD      ; Narrow FM           ;      10000; Voice
+   154002500; Fivepointville Ambulance Tactical; Narrow FM           ;      10000; Voice
+   154025000; Ephrata Twp PD           ; Narrow FM           ;      10000; Voice
+   154055000; Lancaster County Constables; Narrow FM           ;      10000; Voice
+   154100000; West Hempfield Twp PD - Tactical; Narrow FM           ;      10000; Voice
+   154490000; Rohrers Quarry (Trucks)  ; Narrow FM           ;      10000; Voice
+   154540000; Quarryville Presbyterian Retirement Community; Narrow FM           ;      10000; Voice
+   154570000; Lancaster County Constables; Narrow FM           ;      10000; Voice
+   154570000; Hometown Walmart         ; Narrow FM           ;      10000; Schuylkill County
+   154600000; WAWA Lancaster           ; Narrow FM           ;      10000; Voice
+   154600000; Ryan Township Police     ; Narrow FM           ;      10000; Schuylkill County
+   154845000; Ephrata Boro PD          ; Narrow FM           ;      10000; Public Works
+   154876000; Lancaster City Police Department; Narrow FM           ;      20000; Voice
+   154890000; Ephrata Borough PD       ; Narrow FM           ;      10000; Voice
+   154965000; Manheim Twp PD           ; Narrow FM           ;      10000; Voice
+   154980000; Canervon Twp PD          ; Narrow FM           ;      10000; Voice
+   155017500; New Holland EMS          ; Narrow FM           ;      10000; Voice
+   155085000; Rapho Twp PD             ; Narrow FM           ;      10000; Voice
+   155100000; East Earl PD             ; Narrow FM           ;      10000; Voice
+   155130000; Columbia PD              ; Narrow FM           ;      10000; Voice
+   155145000; Denver/Cocalico PD       ; Narrow FM           ;      10000; Voice
+   155145000; Mount Joy - Tactical     ; Narrow FM           ;      10000; Voice
+   155160000; Emergency Strike Team (WEST) - Portable Repeater; Narrow FM           ;      10000; Voice
+   155175000; Groff Bus service        ; Narrow FM           ;      10000; Transportation
+   155205000; Geib Bus                 ; Narrow FM           ;      10000; Transportation
+   155235000; Shultz Bus Service       ; Narrow FM           ;      10000; Transportation
+   155310000; East Cocalilco PD        ; Narrow FM           ;      10000; Voice
+   155340000; Lancaster EMS            ; Narrow FM           ;      10000; Voice
+   155370000; Millersville University PD; Narrow FM           ;      10000; Voice
+   155407500; Lancaster EMS Association; Narrow FM           ;      10000; Voice
+   155520000; Elizabethtown PD         ; Narrow FM           ;      10000; Voice
+   155595000; East Lampeter PD         ; Narrow FM           ;      10000; Voice
+   155655000; Manheim Twp PD           ; Narrow FM           ;      10000; Voice
+   155655000; Manheim Twp Police       ; Narrow FM           ;      10000; Voice
+   155685000; Lancaster County Police Dispatch; Narrow FM           ;      10000; Voice
+   155715000; Millersville PD          ; Narrow FM           ;      10000; Voice
+   155745000; Airport Security         ; Narrow FM           ;      10000; Voice
+   155745000; Lancaster Airport        ; Narrow FM           ;      10000; Voice
+   155775000; Warwick PD - Tactical    ; Narrow FM           ;      10000; Voice
+   155880000; East Hempfield Twp PD    ; Narrow FM           ;      10000; Voice
+   155880000; Manor Twp PD - Tactical  ; Narrow FM           ;      10000; Voice
+   155925000; Warwick Twp PD           ; Narrow FM           ;      10000; Voice
+   155955000; Bart Twp PD              ; Narrow FM           ;      10000; Voice
+   156015000; Penn Twp PD              ; Narrow FM           ;      10000; Voice
+   156120000; Pequea Twp PD            ; Narrow FM           ;      10000; Voice
+   156195000; PA Turnpike Commission   ; Narrow FM           ;      10000; Transportation,Voice
+   156240000; Susquehanna Regional Police; Narrow FM           ;      10000; Voice
+   157597500; Fivepointville Ambulance ; Narrow FM           ;      10000; Voice
+   157620000; Schuylkill Mall          ; Narrow FM           ;      10000; Schuylkill County
+   158745000; Mount Joy Twp - Tactical ; Narrow FM           ;      10000; Voice
+   158805000; West Donegal PD          ; Narrow FM           ;      10000; Voice
+   158955000; Manheim Boro PD          ; Narrow FM           ;      10000; Public Works
+   159395000; Dispactch (Unknown Org)  ; Narrow FM           ;      10000; Voice
+   160065000; Rohrers Quarry (Ops)     ; Narrow FM           ;      10000; Voice
+   160170000; Shultz Lancaster District 2; Narrow FM           ;      10000; Transportation
+   160185000; Chester County Dispatch  ; Narrow FM           ;       5000; Voice
+   162400000; NOAA Weather Channel 1   ; Narrow FM           ;      10000; Data,Voice
+   162425000; NOAA Weather Channel 2   ; Narrow FM           ;      10000; Data,Voice
+   162450000; NOAA Weather Channel 3   ; Narrow FM           ;      10000; Data,Voice
+   162475000; NOAA Weather Channel 4   ; Narrow FM           ;      10000; Data,Voice
+   162500000; NOAA Weather Channel 5   ; Narrow FM           ;      10000; Data,Voice
+   162525000; NOAA Weather Channel 6   ; Narrow FM           ;      10000; Data,Voice
+   162550000; NOAA Weather Channel 7   ; Narrow FM           ;      10000; Data,Voice
+   180310000; NTSC Channel 8 Carrier   ; Narrow FM           ;      10000; Data
+   224020000; K3ZMC Pottstown          ; Narrow FM           ;      10000; Ham
+   436795000; SO-50                    ; Narrow FM           ;      10000; Satellite,Voice
+   442000000; KJ6AL Parkesburg         ; Narrow FM           ;      10000; Ham
+   442050000; N3KZ York                ; Narrow FM           ;      10000; Ham
+   442150000; W3BXW Cornwall BEARS     ; Narrow FM           ;      10000; Ham
+   442400000; N3KZ Eagles Peak         ; Narrow FM           ;      10000; Ham
+   443250000; K3IR Manheim SPARC INC   ; Narrow FM           ;      10000; Ham
+   443250000; K3IR Manheim             ; Narrow FM           ;      10000; Ham
+   443975000; KB3OUC Reading Mt. Penn  ; Narrow FM           ;      10000; Ham
+   444250000; W3SWR Oxford             ; Narrow FM           ;      10000; Ham
+   444250000; W3SBA York               ; Narrow FM           ;      10000; Ham
+   444350000; K3TI Reading             ; Narrow FM           ;      10000; Ham
+   444600000; N3EZI Kirkwood           ; Narrow FM           ;      10000; Ham
+   444650000; W3XP Ephrata             ; Narrow FM           ;      10000; Ham
+   445175000; KB3WLV Reading           ; Narrow FM           ;      10000; Ham
+   446175000; West Chester Repeater    ; Narrow FM           ;      10000; Voice
+   446475000; N3FYI Cornwall           ; Narrow FM           ;      10000; Ham
+   447125000; W3BXW Honeybrook         ; Narrow FM           ;      10000; Ham
+   447675000; K3LV Lebanon LVSRA       ; Narrow FM           ;      10000; Ham
+   447925000; K3LV Cornwall LVSRA      ; Narrow FM           ;      10000; Ham
+   448175000; N3EIO KC3LE Quarryville  ; Narrow FM           ;      10000; Ham
+   448225000; AA3RG Grantville         ; Narrow FM           ;      10000; Ham
+   448625000; N3TPL Hollwood N3TPL     ; Narrow FM           ;      10000; Ham
+   448725000; W3MEL Reading            ; Narrow FM           ;      10000; Ham
+   448925000; N3JOZ Schaefferstown     ; Narrow FM           ;      10000; Ham
+   449025000; W3AD Cornwall            ; Narrow FM           ;      10000; Ham
+   449075000; N3SWH Texter Mtn         ; Narrow FM           ;      10000; Ham
+   449225000; KA3CNT Lancaster         ; Narrow FM           ;      10000; Ham
+   449275000; N3FYI New Holland        ; Narrow FM           ;      10000; Ham
+   449325000; KA3CNT Lancaster         ; Narrow FM           ;      10000; Ham
+   449425000; N3NRN Red Lion           ; Narrow FM           ;      10000; Ham
+   449475000; AA3DH Lancaster          ; Narrow FM           ;      10000; Ham
+   449525000; N3EDM Gap Hill           ; Narrow FM           ;      10000; Ham
+   449575000; W3RRR Lancaster          ; Narrow FM           ;      10000; Ham
+   449625000; K3CX Reading             ; Narrow FM           ;      10000; Ham
+   449675000; WB3LGG Cochranville      ; Narrow FM           ;      10000; Ham
+   449925000; KA3RMP Hershey           ; Narrow FM           ;      10000; Ham
+   449975000; K3IR Manheim SPARC INC   ; Narrow FM           ;      10000; Ham
+   450412000; WGAL In-Studio           ; Narrow FM           ;      10000; Voice
+   450637500; WGAL TV8 IFB             ; Narrow FM           ;      10000; Voice
+   450650000; WGAL Field Operations    ; Narrow FM           ;      10000; Voice
+   451112500; Three Mile Island Siren Control; Narrow FM           ;      10000; Voice
+   451125000; HACC Lancaster IT        ; Narrow FM           ;      10000; Voice
+   451225000; Lancaster School District - Maintenance; Narrow FM           ;      10000; Voice
+   451287500; F&M College Facility and Operations; Narrow FM           ;      10000; Voice
+   451287500; Safe Harbor Water Power Corporation; Narrow FM           ;      10000; Utilities
+   451362500; Landis Homes             ; Narrow FM           ;      10000; Voice
+   451387500; Thaddeus Stevens Security; Narrow FM           ;      10000; Voice
+   451400000; Eastern Lancaster County School District - Maintenance; Narrow FM           ;      10000; Voice
+   451587500; Thaddeus Stevens Maintenance; Narrow FM           ;      10000; Voice
+   451725000; PA Digital Site 006 New Holland; Narrow FM           ;      10000; TRS
+   451787500; Noah N Sensenig Farm     ; Narrow FM           ;      10000; Voice
+   451850000; Millersville University Sports 1; Narrow FM           ;      10000; Voice
+   451862500; LGH - Emergency          ; Narrow FM           ;      10000; Voice
+   451875000; Lancaster School District - Emergency; Narrow FM           ;      10000; Voice
+   451912500; LGH - Shuttles           ; Narrow FM           ;      10000; Voice
+   451962500; Lancaster Bible College  ; Narrow FM           ;      10000; Voice
+   452025000; Penn Manor School District; Narrow FM           ;      10000; Voice
+   452075000; Martin Paving Inc.       ; Narrow FM           ;      10000; Voice
+   452175000; LGH Central Supply       ; Narrow FM           ;      10000; Voice
+   452212500; Brethren Village 2       ; Narrow FM           ;      10000; Voice
+   452237500; James Street Improvement District (Lancaster City PD); Narrow FM           ;      10000; Voice
+   452262500; Ephrata Community Hospital Security; Narrow FM           ;      10000; Voice
+   452300000; Schwanger Bros. Heating  ; Narrow FM           ;      10000; Voice
+   452325000; Park City Security       ; Narrow FM           ;      10000; Voice
+   452625000; Site 011 Rawlinsville    ; Narrow FM           ;      10000; TRS
+   452700000; LGH - Engineering        ; Narrow FM           ;      10000; Voice
+   453125000; Pagers - POCSAG          ; Narrow FM           ;      10000; Data
+   453211600; WQQT436 Lancaster PDW    ; Narrow FM           ;      10000; Public Works,Utilities,Voice
+   453475000; Ephrata Borough DPW      ; Narrow FM           ;      10000; Public Works
+   453525000; Alpha Paging (POCSAG)    ; Narrow FM           ;      10000; Data
+   453687500; Ephrata Pioneer Fire Co  ; Narrow FM           ;      10000; Voice
+   453737500; Lampeter Fire Company    ; Narrow FM           ;      10000; Voice
+   453750000; Red Rose Paratransit     ; Narrow FM           ;      10000; Transportation
+   453875000; Millersville University Facilities Maintenance 1; Narrow FM           ;      10000; Voice
+   453875000; STS Transportation       ; Narrow FM           ;      10000; Schuylkill County
+   453975000; Red Rose Transit Authority; Narrow FM           ;      10000; Transportation
+   454250000; PA Digital Site 002 Cornwall; Narrow FM           ;      10000; TRS
+   454275000; PA Digital Site 001      ; Narrow FM           ;      10000; TRS
+   454275000; PA Digital Site 011 Rawlinsville; Narrow FM           ;      10000; TRS
+   456850000; Millersville Athletics   ; Narrow FM           ;      10000; Voice
+   458587500; Ephrata Pioneer Fire Company Mobile Repeater; Narrow FM           ;      10000; Voice
+   458875000; Millersville Facilities Maintenance 2; Narrow FM           ;      10000; Voice
+   460437500; Mount Gretna FC          ; Narrow FM           ;      10000; Voice
+   461050000; Lancaster Regional - Ch 1; Narrow FM           ;      10000; Voice
+   461075000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   461125000; Wohlsen Construction Co. ; Narrow FM           ;      10000; Voice
+   461150000; Triangle Comms Site 001 New Holland; Narrow FM           ;      10000; TRS
+   461325000; Ephrata Community Hospital Eng; Narrow FM           ;      10000; Voice
+   461387500; McCaskey High School     ; Narrow FM           ;      10000; Voice
+   461400000; Hempfield School District Laidlaw Buses; Narrow FM           ;      10000; Transportation
+   461450000; PA Digital Site 011 Rawlinsville; Narrow FM           ;      10000; TRS
+   461462500; LGH - Decon / Tac        ; Narrow FM           ;      10000; Voice
+   461562500; John F Martin and Sons - Stevens Plant Operations; Narrow FM           ;      10000; Voice
+   461612500; Brethren Village 1       ; Narrow FM           ;      10000; Voice
+   461637500; LGH - Maintenance/Food Service; Narrow FM           ;      10000; Voice
+   461637500; Walmart Distribution Ch 6; Narrow FM           ;      10000; Schuylkill County
+   461750000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   461787500; Johnson & Johnson - Yard Jockeys; Narrow FM           ;      10000; Voice
+   461787500; Walmart Distribution Ch 4; Narrow FM           ;      10000; Schuylkill County
+   461825000; HACC Lancaster Campus    ; Narrow FM           ;      10000; Voice
+   461962500; Walmart Distribution Ch 2; Narrow FM           ;      10000; Schuylkill County
+   462062500; Heart of Lancaster - Ch 1; Narrow FM           ;      10000; Voice
+   462100000; Blue Mountain SD         ; Narrow FM           ;      10000; Schuylkill County
+   462150000; PA Digital Site 002 Cornwall; Narrow FM           ;      10000; TRS
+   462200000; Johnson & Johnson - Open/Projects; Narrow FM           ;      10000; Voice
+   462225000; R R Donnelley & Sons     ; Narrow FM           ;      10000; Voice
+   462250000; Johnson & Johnson - Maintenance; Narrow FM           ;      10000; Voice
+   462300000; LGH - Environmental Services; Narrow FM           ;      10000; Voice
+   462375000; Johnson & Johnson - Weights; Narrow FM           ;      10000; Voice
+   462400000; Eastern Lancaster County School District; Narrow FM           ;      10000; Voice
+   462450000; Johnson & Johnson - Tubes/Blisters; Narrow FM           ;      10000; Voice
+   462475000; Garden Spot Village 1    ; Narrow FM           ;      10000; Voice
+   462500000; Johnson & Johnson - Security; Narrow FM           ;      10000; Voice
+   462525000; Johnson & Johnson - MW2000 Packing; Narrow FM           ;      10000; Voice
+   462550000; GMRS Channel 1           ; Narrow FM           ;      10000; Voice
+   462562500; FRS Channel 1            ; Narrow FM           ;      10000; Voice
+   462575000; GMRS Channel 2           ; Narrow FM           ;      10000; Voice
+   462587500; FRS Channel 2            ; Narrow FM           ;      10000; Voice
+   462600000; GMRS Channel 3           ; Narrow FM           ;      10000; Voice
+   462612500; FRS Channel 3            ; Narrow FM           ;      10000; Voice
+   462625000; GMRS Channel 4           ; Narrow FM           ;      10000; Voice
+   462637500; FRS Channel 4            ; Narrow FM           ;      10000; Voice
+   462650000; GMRS Channel 5           ; Narrow FM           ;      10000; Voice
+   462662500; FRS Channel 5            ; Narrow FM           ;      10000; Voice
+   462675000; GMRS Channel 6           ; Narrow FM           ;      10000; Voice
+   462687500; FRS Channel 6            ; Narrow FM           ;      10000; Voice
+   462687500; Millersville Special Events; Narrow FM           ;      10000; Voice
+   462700000; GMRS Channel 7           ; Narrow FM           ;      10000; Voice
+   462712500; FRS Channel 7            ; Narrow FM           ;      10000; Voice
+   462725000; GMRS Channel 8           ; Narrow FM           ;      10000; Voice
+   462775000; Crossband Repeater for 33.56 33.68 33.72 33.64; Narrow FM           ;      10000; Voice
+   463200000; Northwest EMS (Elizabethtown Area) - Private; Narrow FM           ;      10000; Voice
+   463225000; Triangle Comms Site 001 New Holland; Narrow FM           ;      10000; TRS
+   463350000; Woodcrest Villa Mennonite Home - Housekeeping/Maintenance; Narrow FM           ;      10000; Voice
+   463450000; PA Digital Site 006 New Holland; Narrow FM           ;      10000; TRS
+   463475000; PA Digital Site 002 Cornwall; Narrow FM           ;      10000; TRS
+   463500000; PA Digital Site 002 Cornwall; Narrow FM           ;      10000; TRS
+   463575000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   463600000; ETown College Security Dispatch; Narrow FM           ;      10000; Voice
+   463650000; Site 001 Welsh Mountain  ; Narrow FM           ;      10000; TRS
+   464000000; PA Digital Site 002 Cornwall; Narrow FM           ;      10000; TRS
+   464000000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   464300000; Eagle Disposal           ; Narrow FM           ;      10000; Voice
+   464300000; PA Digital Site 006 New Holland; Narrow FM           ;      10000; TRS
+   464325000; Eshbach Bus Service (SOLANCO and Penn Manor); Narrow FM           ;      10000; Transportation
+   464362500; PA Digital Site 006 New Holland; Narrow FM           ;      10000; TRS
+   464375000; Manheim Township School District; Narrow FM           ;      10000; Voice
+   464375000; Willow Valley Manor Campus 2 - Ops/Security; Narrow FM           ;      10000; Voice
+   464425000; Health Campus - Security ; Narrow FM           ;      10000; Voice
+   464437500; Hempfield High School    ; Narrow FM           ;      10000; Voice
+   464475000; Eastern Lanc. Co. SD Buses; Narrow FM           ;      10000; Transportation
+   464475000; Willow Valley Lakes Campus 2 - Ops/Security; Narrow FM           ;      10000; Voice
+   464525000; F&M College Maintenance  ; Narrow FM           ;      10000; Voice
+   464550000; Kitchen Kettle Village   ; Narrow FM           ;      10000; Voice
+   464550000; Sheetz #257              ; Narrow FM           ;      10000; Voice
+   464575000; Garden Spot Village 2    ; Narrow FM           ;      10000; Voice
+   464637500; F&M College EMT Team     ; Narrow FM           ;      10000; Voice
+   464637500; F&M College Student Shuttles; Narrow FM           ;      10000; Transportation
+   464650000; D.B. Fisher Bus Service  ; Narrow FM           ;      10000; Transportation
+   464662500; Millersville SMC Fitness Center; Narrow FM           ;      10000; Voice
+   464675000; Solanco SD Bus           ; Narrow FM           ;      10000; Transportation
+   464700000; LGH - Security           ; Narrow FM           ;      10000; Voice
+   464762500; Donegal School District 1; Narrow FM           ;      10000; Voice
+   464775000; Lancaster Regional - Ch 2; Narrow FM           ;      10000; Voice
+   464775000; Millersville Sports 2    ; Narrow FM           ;      10000; Voice
+   464787500; Johnson & Johnson - Bottling; Narrow FM           ;      10000; Voice
+   464800000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   464825000; HACC Lancaster Facilities & Operations; Narrow FM           ;      10000; Voice
+   464825000; HACC Lancaster Security  ; Narrow FM           ;      10000; Voice
+   464862500; Donegal School District 2; Narrow FM           ;      10000; Voice
+   464875000; Heart of Lancaster - Ch 2; Narrow FM           ;      10000; Voice
+   464900000; Site 001 Welsh Mountain  ; Narrow FM           ;      10000; TRS
+   464912500; HACC Lancaster Facilities & Operations; Narrow FM           ;      10000; Voice
+   464925000; Willow Valley Lakes Campus 1 - Ops/Security; Narrow FM           ;      10000; Voice
+   464950000; Triangle Comms Site 001  ; Narrow FM           ;      10000; TRS
+   464962500; Sight and Sound Theatre (Queue & Stage); Narrow FM           ;      10000; Voice
+   464975000; Kellogs                  ; Narrow FM           ;      10000; Voice
+   464975000; Willow Valley Manor Campus 1 - Ops/Security; Narrow FM           ;      10000; Voice
+   466050000; Millersville Ticket Sales; Narrow FM           ;      10000; Voice
+   466487500; Millersville SMC Information Desk; Narrow FM           ;      10000; Voice
+   467562500; FRS Channel 8            ; Narrow FM           ;       5000; Voice
+   467587500; FRS Channel 9            ; Narrow FM           ;       5000; Voice
+   467612500; FRS Channel 10           ; Narrow FM           ;       5000; Voice
+   467637500; FRS Channel 11           ; Narrow FM           ;       5000; Voice
+   467662500; FRS Channel 12           ; Narrow FM           ;       5000; Voice
+   467687500; FRS Channel 13           ; Narrow FM           ;       5000; Voice
+   467712500; FRS Channel 14           ; Narrow FM           ;       5000; Voice
+   467850000; Cracker Barrel           ; Narrow FM           ;      10000; Voice
+   469775000; Millersville Intramurals ; Narrow FM           ;      10000; Voice
+   476012500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476050000; LCWC Site 005 COW (Portable site); Narrow FM           ;      10000; TRS
+   476087500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476162500; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   476275000; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476350000; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476425000; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   476462500; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   476537500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476575000; LCWC Site 005 COW (Portable site); Narrow FM           ;      10000; TRS
+   476612500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476687500; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   476725000; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   476800000; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   476875000; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   477062500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   477100000; LCWC Site 005 COW (Portable site); Narrow FM           ;      10000; TRS
+   477137500; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   477212500; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   477287500; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   477362500; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   477400000; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   477475000; LCWC Site 001 Central Simulcast; Narrow FM           ;      10000; TRS
+   477550000; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   477625000; LCWC Site 005 COW (Portable site); Narrow FM           ;      10000; TRS
+   477662500; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   477812500; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   477850000; LCWC Site 002 Northeast Simulcast; Narrow FM           ;      10000; TRS
+   477925000; LCWC Site 004 South Simulcast; Narrow FM           ;      10000; TRS
+   478075000; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478150000; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478337500; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478412500; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478600000; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478787500; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   478862500; LCWC Site 003 Northwest Simulcast; Narrow FM           ;      10000; TRS
+   502962500; PA Digital Site 006 New Holland; Narrow FM           ;      10000; TRS
+   851275000; PASTARNet Site 71063 Lancaster (LANC63); Narrow FM           ;      10000; TRS
+   851462500; PASTARNet Site 71033 Truce (LANC33); Narrow FM           ;      10000; TRS
+   851537500; PASTARNet Site 71065 Lancaster (LANC65); Narrow FM           ;      10000; TRS
+   851675000; PASTARNet Site 71006 Bowmansville (LANC06); Narrow FM           ;      10000; TRS
+   851800000; PASTARNet Site 71033 Truce (LANC33); Narrow FM           ;      10000; TRS
+   852137500; PASTARNet Site 71634 Gap (LANC634); Narrow FM           ;      10000; TRS
+   852225000; PASTARNet Site 71006 Bowmansville (LANC06); Narrow FM           ;      10000; TRS
+   852275000; PASTARNet Site 71634 Gap (LANC634); Narrow FM           ;      10000; TRS
+   852350000; PASTARNet Site 71001 Cornwall (LANC01); Narrow FM           ;      10000; TRS
+   852475000; PASTARNet Site 71064 Drumore (LANC64); Narrow FM           ;      10000; TRS
+   852650000; PASTARNet Site 71641 Drumore (LANC641); Narrow FM           ;      10000; TRS
+   852775000; PASTARNet Site 71001 Cornwall (LANC01); Narrow FM           ;      10000; TRS
+   853287500; PASTARNet Site 71033 Truce (LANC33); Narrow FM           ;      10000; TRS
+   853462500; PASTARNet Site 71062 Holtwood (LANC62); Narrow FM           ;      10000; TRS
+   853625000; PASTARNet Site 71001 Cornwall (LANC01); Narrow FM           ;      10000; TRS
+   853875000; PASTARNet Site 71001 Cornwall (LANC01); Narrow FM           ;      10000; TRS
+   853962500; PASTARNet Site 71006 Bowmansville (LANC06); Narrow FM           ;      10000; TRS
+   854462500; PASTARNet Site 71634 Gap (LANC634); Narrow FM           ;      10000; TRS
+   927587500; N3TUQ CORNWALL LRTS      ; Narrow FM           ;      10000; Ham
+   940263000; GSM900 Basestation       ; Narrow FM           ;      10000; Data
+  1625500000; Iridium Satellites       ; Narrow FM           ;      10000; Satellite
