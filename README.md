@@ -28,22 +28,38 @@ Well, read on, intrepid radio user!
 - [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36): Android App used to decode SSTV images from ISS.
 - [WXtoImg](http://www.wxtoimg.com/): Slightly out-of-date program used to decode NOAA Satellite Telemetry.
 
+GQRX has a feature which allows for UDP streaming of any captured signal.
+Using Unix-y philosophy, we could integrate netcat (`nc`) to allow various command-line programs to interpret the audio from the RTL-SDR.
+
+For example, to decode POCSAG messages, start the UDP stream feature and run:
+```bash
+nc -l -u -p 7355 | sox -t raw -esigned-integer -b16 -r \
+48000 - -esigned-integer -b16 -r 22050 -t raw - | \
+multimon-ng -t raw -a SCOPE -a POCSAG512 -a POCSAG1200 -a POCSAG2400 -f alpha -
+```
+
+This will take the raw I/Q signals from GQRX, perform audio levelling and sample rate modifications,
+then pass it to Multimon-NG for decoding.
+
+It's also possible to change the arguments for Multimon-NG to allow for decoding of Morse Code and several other
+signal types.
+
 #### Software Defined Radio Frontends
 GQRX is an excellent Linux and Mac based SDR frontend.
 It has a very easy to use interface in addition to support for many of the common SDR hardware devices.
 
-More information, including download links can be found at the [GQRX Homepage](http://gqrx.dk/).
-
-Included in this repo is a Lancaster-County specific Bookmarks file.
-This will allow for quick setup of bookmarks, which will indicate the type, origin, and mode of common
-broadcasts in Lancaster County and surrounding areas.
-
-**Linux Setup:**
-Copy this file to `~/.config/gqrx/bookmarks.csv`
+More information, including download links, can be found at the [GQRX Homepage](http://gqrx.dk/).
 
 If you're using Windows; follow the [SDR# Setup guide](https://www.rtl-sdr.com/rtl-sdr-quick-start-guide/).
 
 Also of interest might be the [Big List of SDR Software](https://www.rtl-sdr.com/big-list-rtl-sdr-supported-software/)
+
+Included in this repo is a Lancaster-County specific Bookmarks file.
+This will allow for quick setup of bookmarks, which indicate the frequency, type, origin, and mode of common
+broadcasts in Lancaster County and surrounding areas.
+
+**Linux Setup:**
+Copy the bookmarks file to `~/.config/gqrx/bookmarks.csv`
 
 #### Setting Up Your RTL-SDR
 If your RTL-SDR device has a Temperature Controlled Crystal Oscillator (TCXO), you can forego this step.
