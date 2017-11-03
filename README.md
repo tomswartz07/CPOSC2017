@@ -25,7 +25,7 @@ Well, read on, intrepid radio user!
 - [Multimon-ng](https://github.com/EliasOenal/multimon-ng/): POCSAG/Pager decoding. Used in conjunction with NetCat and SOX audio manipulation.
 - [Dump1090](https://github.com/antirez/dump1090): Used to display ADS/B Airplane Tracking.
 - [RTL_433](https://github.com/merbanan/rtl_433): Used to decode ISM devices; thermometers, doorbells, Tire Pressure Sensors, etc.
-- [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36): Android App used to decode SSTV images from ISS.
+- [Robot36](https://play.google.com/store/apps/details?id=xdsopl.robot36): Android App used to decode SSTV images from ISS and ham radio bands.
 - [WXtoImg](http://www.wxtoimg.com/): Slightly out-of-date program used to decode NOAA Satellite Telemetry.
 
 GQRX has a feature which allows for UDP streaming of any captured signal.
