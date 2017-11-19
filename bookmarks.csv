@@ -1,20 +1,22 @@
 # Tag name          ;  color
 Voice               ; #00aa7f
-Public Works        ; #c0629f
-Utilities           ; #4d5fc0
-Data                ; #00ffff
-Transportation      ; #5bc03f
-Aircraft            ; #aaffff
-Ham                 ; #00aa7f
-Radio Direction Finding; #aaaa00
 TRS                 ; #ff510c
-Satellite           ; #905353
+Radio Direction Finding; #aaaa00
+Ham                 ; #00aa7f
+Aircraft            ; #aaffff
 Schuylkill County   ; #eae788
+Public Works        ; #c0629f
+Data                ; #00ffff
+Satellite           ; #905353
+Transportation      ; #5bc03f
+Utilities           ; #4d5fc0
+Digital/DMR         ; #aa55ff
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
      1490000; WONN-FM                  ; AM                  ;      10000; Voice
      1816710; Morse Code               ; CW-L                ;        500; Data
      4625000; UVB-76                   ; USB                 ;       2700; Ham
+     6925000; Frequent Pirate Radio    ; AM                  ;      10000; Voice
      7048900; W1AW - ARRL              ; LSB                 ;       2700; Ham
      7173000; LSB 40 Meters            ; LSB                 ;       2700; Ham
     12160000; Crazy Conspiracy Nut     ; AM                  ;      10000; Voice
@@ -40,8 +42,9 @@ Schuylkill County   ; #eae788
     45040000; Mount Joy Township Forest Fire Channel; Narrow FM           ;      10000; Voice
     45640000; Akron Municipal PD (Tac/Low); Narrow FM           ;      10000; Voice
     45700000; West Earl Municipal PD (Low); Narrow FM           ;      10000; Voice
-    53850000; N3TJJ                    ; Narrow FM           ;       6600; Ham
-    53970000; W3HZU                    ; Narrow FM           ;       6600; Ham
+    53330000; K3CX Honey Brook         ; AM                  ;      46400; Ham,Voice
+    53850000; N3TJJ Rawlinsville       ; Narrow FM           ;       6600; Ham
+    53970000; W3HZU York               ; Narrow FM           ;       6600; Ham
     72580000; County Fire/EMS Dispatch ; Narrow FM           ;      10000; Voice
     88700000; WXPN                     ; WFM (mono)          ;     160000; Voice
     89500000; WITF                     ; WFM (mono)          ;     160000; Voice
@@ -70,24 +73,37 @@ Schuylkill County   ; #eae788
    137890000; Meteor M2                ; Narrow FM           ;      10000; Data,Satellite
    137912500; NOAA 18                  ; Narrow FM           ;      25000; Data,Satellite
    144390000; APRS                     ; Narrow FM           ;      10000; Data
+   144489000; WSPR Net Dial            ; Narrow FM           ;      10000; Data,Ham
+   145210000; WB3EYB Harrisburg        ; Narrow FM           ;      10000; Ham,Voice
    145230000; K3IR Manheim             ; Narrow FM           ;      10000; Ham
+   145290000; W3ND Harrisburg          ; Narrow FM           ;      20000; Ham,Voice
    145310000; N3FYI Lancaster          ; Narrow FM           ;      10000; Ham
    145370000; SARA Club                ; Narrow FM           ;      10000; Schuylkill County
    145390000; W3AD Cornwall            ; Narrow FM           ;      10000; Ham,Voice
    145450000; W3XP Ephrata             ; Narrow FM           ;      10000; Ham,Voice
+   145960000; RadFxSat (Fox-1B)        ; Narrow FM           ;      10000; Satellite,Voice
    145980000; AO-85 (FOX-1A)           ; Narrow FM           ;      10000; Satellite
    146490000; Tamaqua Repeater         ; Narrow FM           ;      10000; Schuylkill County
    146610000; K3NCY New Holland        ; Narrow FM           ;      10000; Ham,Voice
    146640000; Pine Grove AARG          ; Narrow FM           ;      10000; Schuylkill County
    146700000; K3AE Shrewsberry         ; Narrow FM           ;      10000; Ham,Voice
-   146745000; KX3B Buck                ; Narrow FM           ;      10000; Ham,Voice
+   146745000; KX3B Buck                ; Narrow FM           ;      10000; Digital/DMR
+   146760000; W3UU Harrisburg          ; Narrow FM           ;      15400; Ham,Voice
    146865000; W3ZGD Red Lion           ; Narrow FM           ;      10000; Ham,Voice
+   146880000; W3WAN Lebanon            ; Narrow FM           ;      10000; Ham,Voice
+   146910000; W3BN Reading             ; Narrow FM           ;      10000; Ham,Voice
    146925000; W3WAN York               ; Narrow FM           ;      10000; Voice
    146970000; W3HZU York               ; Narrow FM           ;      10000; Ham,Voice
-   147015000; W3RR LGH                 ; Narrow FM           ;      10000; Ham
+   146985000; W3GMS Chester            ; Narrow FM           ;      20000; Ham,Voice
+   147015000; W3RR LGH                 ; Narrow FM           ;      10000; Ham,Voice
+   147105000; KA0JQO Cornwall          ; Narrow FM           ;      10000; Digital/DMR,Ham
    147165000; K3LV Grantville          ; Narrow FM           ;      10000; Ham,Voice
+   147210000; K3ZMC Berks/Earlville    ; Narrow FM           ;      20000; Ham,Voice
    147270000; Tamaqua W3TWA            ; Narrow FM           ;      10000; Schuylkill County
+   147285000; N3SWH - Newmanstown      ; Narrow FM           ;      10000; Ham,Voice
    147315000; K3LV Cornwall            ; Narrow FM           ;      10000; Voice
+   147330000; W3MUM - Hanover          ; Narrow FM           ;      15400; Ham,Voice
+   147345000; W3SC Pottsville          ; Narrow FM           ;      15400; Ham,Schuylkill County,Voice
    147390000; Hegins KB3VXB            ; Narrow FM           ;      10000; Schuylkill County
    150830000; Black Rock Retreat       ; Narrow FM           ;      10000; Voice
    150995000; Mountville Borough PD    ; Narrow FM           ;      10000; Voice
@@ -189,13 +205,22 @@ Schuylkill County   ; #eae788
    162550000; NOAA Weather Channel 7   ; Narrow FM           ;      10000; Data,Voice
    180310000; NTSC Channel 8 Carrier   ; Narrow FM           ;      10000; Data
    224020000; K3ZMC Pottstown          ; Narrow FM           ;      10000; Ham
+   224040000; N3JCN Parkesburg         ; Narrow FM           ;      10000; Ham,Voice
+   224320000; N3FYI - Lancaster        ; Narrow FM           ;      10000; Ham,Voice
+   224320000; WA3WPA Rawlinsville      ; Narrow FM           ;      10000; Ham,Voice
+   224440000; KA3CNT Lititz            ; Narrow FM           ;      10000; Ham,Voice
+   224640000; K3TI Reading             ; Narrow FM           ;      10000; Ham,Voice
+   224780000; AK3E Buck                ; Narrow FM           ;      10000; Ham,Voice
+   224820000; N3TPL Cornwall           ; Narrow FM           ;      10000; Ham,Voice
+   224840000; KA3CNT Cornwall          ; Narrow FM           ;      10000; Ham,Voice
+   225790000; RTTY Beacon?             ; USB                 ;       2700; Data
    436795000; SO-50                    ; Narrow FM           ;      10000; Satellite,Voice
    442000000; KJ6AL Parkesburg         ; Narrow FM           ;      10000; Ham
    442050000; N3KZ York                ; Narrow FM           ;      10000; Ham
    442150000; W3BXW Cornwall BEARS     ; Narrow FM           ;      10000; Ham
    442400000; N3KZ Eagles Peak         ; Narrow FM           ;      10000; Ham
-   443250000; K3IR Manheim SPARC INC   ; Narrow FM           ;      10000; Ham
-   443250000; K3IR Manheim             ; Narrow FM           ;      10000; Ham
+   443250000; K3IR Manheim SPARC       ; Narrow FM           ;      10000; Ham
+   443550000; K3ZMC Earlville          ; AM                  ;      10000; Ham,Voice
    443975000; KB3OUC Reading Mt. Penn  ; Narrow FM           ;      10000; Ham
    444250000; W3SWR Oxford             ; Narrow FM           ;      10000; Ham
    444250000; W3SBA York               ; Narrow FM           ;      10000; Ham
@@ -203,14 +228,15 @@ Schuylkill County   ; #eae788
    444600000; N3EZI Kirkwood           ; Narrow FM           ;      10000; Ham
    444650000; W3XP Ephrata             ; Narrow FM           ;      10000; Ham
    445175000; KB3WLV Reading           ; Narrow FM           ;      10000; Ham
-   446175000; West Chester Repeater    ; Narrow FM           ;      10000; Voice
+   446175000; W3EOC - Chester          ; Narrow FM           ;      10000; Voice
    446475000; N3FYI Cornwall           ; Narrow FM           ;      10000; Ham
+   447075000; AA3VI - Thorndale/Chester; Narrow FM           ;      20000; Ham,Voice
    447125000; W3BXW Honeybrook         ; Narrow FM           ;      10000; Ham
    447675000; K3LV Lebanon LVSRA       ; Narrow FM           ;      10000; Ham
    447925000; K3LV Cornwall LVSRA      ; Narrow FM           ;      10000; Ham
    448175000; N3EIO KC3LE Quarryville  ; Narrow FM           ;      10000; Ham
    448225000; AA3RG Grantville         ; Narrow FM           ;      10000; Ham
-   448625000; N3TPL Hollwood N3TPL     ; Narrow FM           ;      10000; Ham
+   448625000; N3TPL Holtwood           ; Narrow FM           ;      10000; Ham
    448725000; W3MEL Reading            ; Narrow FM           ;      10000; Ham
    448925000; N3JOZ Schaefferstown     ; Narrow FM           ;      10000; Ham
    449025000; W3AD Cornwall            ; Narrow FM           ;      10000; Ham
@@ -226,7 +252,7 @@ Schuylkill County   ; #eae788
    449675000; WB3LGG Cochranville      ; Narrow FM           ;      10000; Ham
    449925000; KA3RMP Hershey           ; Narrow FM           ;      10000; Ham
    449975000; K3IR Manheim SPARC INC   ; Narrow FM           ;      10000; Ham
-   450412000; WGAL In-Studio           ; Narrow FM           ;      10000; Voice
+   450413000; WGAL In-Studio           ; Narrow FM           ;      10000; Voice
    450637500; WGAL TV8 IFB             ; Narrow FM           ;      10000; Voice
    450650000; WGAL Field Operations    ; Narrow FM           ;      10000; Voice
    451112500; Three Mile Island Siren Control; Narrow FM           ;      10000; Voice
@@ -253,6 +279,7 @@ Schuylkill County   ; #eae788
    452262500; Ephrata Community Hospital Security; Narrow FM           ;      10000; Voice
    452300000; Schwanger Bros. Heating  ; Narrow FM           ;      10000; Voice
    452325000; Park City Security       ; Narrow FM           ;      10000; Voice
+   452388000; Lebanon School District Bus; Narrow FM           ;      10000; Public Works,Voice
    452625000; Site 011 Rawlinsville    ; Narrow FM           ;      10000; TRS
    452700000; LGH - Engineering        ; Narrow FM           ;      10000; Voice
    453125000; Pagers - POCSAG          ; Narrow FM           ;      10000; Data
