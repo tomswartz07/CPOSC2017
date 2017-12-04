@@ -57,7 +57,7 @@ Utilities           ; #4d5fc0
     96100000; WSOX                     ; WFM (mono)          ;     160000; Voice
     96900000; WLAN                     ; WFM (mono)          ;     160000; Voice
     97300000; WRVV                     ; WFM (mono)          ;     160000; Voice
-   101300000; 101 "The Rose"           ; WFM (mono)          ;     160000; Voice
+   101300000; WROZ                     ; WFM (mono)          ;     160000; Voice
    117300000; KLNS LRP                 ; AM                  ;       5000; Radio Direction Finding,Aircraft
    120900000; KLNS Tower               ; AM                  ;      10000; Aircraft,Voice
    121800000; KLNS Ground Control      ; AM                  ;      10000; Aircraft,Voice
