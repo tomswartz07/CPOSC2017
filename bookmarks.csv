@@ -1,16 +1,16 @@
 # Tag name          ;  color
 Voice               ; #00aa7f
-TRS                 ; #ff510c
-Radio Direction Finding; #aaaa00
 Ham                 ; #00aa7f
-Aircraft            ; #aaffff
-Schuylkill County   ; #eae788
-Public Works        ; #c0629f
-Data                ; #00ffff
 Satellite           ; #905353
+Data                ; #00ffff
+Radio Direction Finding; #aaaa00
+Aircraft            ; #aaffff
+Digital/DMR         ; #aa55ff
+TRS                 ; #ff510c
+Public Works        ; #c0629f
+Schuylkill County   ; #eae788
 Transportation      ; #5bc03f
 Utilities           ; #4d5fc0
-Digital/DMR         ; #aa55ff
 
 # Frequency ; Name                     ; Modulation          ;  Bandwidth; Tags
      1490000; WONN-FM                  ; AM                  ;      10000; Voice
@@ -74,18 +74,24 @@ Digital/DMR         ; #aa55ff
    137912500; NOAA 18                  ; Narrow FM           ;      25000; Data,Satellite
    144390000; APRS                     ; Narrow FM           ;      10000; Data
    144489000; WSPR Net Dial            ; Narrow FM           ;      10000; Data,Ham
+   145110000; W3ND Harrisburg          ; Narrow FM           ;      10000; Ham,Voice
+   145150000; K3TI Reading             ; Narrow FM           ;      10000; Digital/DMR,Ham
+   145170000; AA3RG Pine Grove         ; Narrow FM           ;      10000; Schuylkill County,Voice
    145210000; WB3EYB Harrisburg        ; Narrow FM           ;      10000; Ham,Voice
    145230000; K3IR Manheim             ; Narrow FM           ;      10000; Ham
+   145250000; KB3OZC Stowe             ; Narrow FM           ;      10000; Ham,Voice
+   145270000; N3TWT Mechanicsburg      ; Narrow FM           ;      10000; Ham,Voice
    145290000; W3ND Harrisburg          ; Narrow FM           ;      20000; Ham,Voice
    145310000; N3FYI Lancaster          ; Narrow FM           ;      10000; Ham
    145370000; SARA Club                ; Narrow FM           ;      10000; Schuylkill County
    145390000; W3AD Cornwall            ; Narrow FM           ;      10000; Ham,Voice
    145450000; W3XP Ephrata             ; Narrow FM           ;      10000; Ham,Voice
+   145610000; K3NCY New Holland        ; Narrow FM           ;      10000; Ham,Voice
    145960000; RadFxSat (Fox-1B)        ; Narrow FM           ;      10000; Satellite,Voice
    145980000; AO-85 (FOX-1A)           ; Narrow FM           ;      10000; Satellite
    146490000; Tamaqua Repeater         ; Narrow FM           ;      10000; Schuylkill County
    146610000; K3NCY New Holland        ; Narrow FM           ;      10000; Ham,Voice
-   146640000; Pine Grove AARG          ; Narrow FM           ;      10000; Schuylkill County
+   146640000; AA3RG Pine Grove         ; Narrow FM           ;      10000; Schuylkill County
    146700000; K3AE Shrewsberry         ; Narrow FM           ;      10000; Ham,Voice
    146745000; KX3B Buck                ; Narrow FM           ;      10000; Digital/DMR
    146760000; W3UU Harrisburg          ; Narrow FM           ;      15400; Ham,Voice
